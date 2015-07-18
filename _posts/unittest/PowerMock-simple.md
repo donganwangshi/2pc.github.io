@@ -6,9 +6,9 @@ tags : [mockito]
 ---
 {% include JB/setup %}
 
-# 配置
-<```
-<dependency>
+# 配置依赖
+```
+      <dependency>
            <groupId>org.mockito</groupId>
            <artifactId>mockito-all</artifactId>
            <version>1.9.5</version>
@@ -34,4 +34,16 @@ tags : [mockito]
        </dependency>
 ```
 
-# 例子
+# 使用
+
+0. 准备工作
+> 在测试类上添加如下内容
+
+```
+@RunWith(PowerMockRunner.class)
+@PrepareForTest(Cluster.class)
+public class ClusterTest {
+}  
+
+```
+1. 使用
