@@ -8,7 +8,7 @@ tags : [jprofiler]
 
 
 # 配置
-需要在远程机器JAVA启动处添加agentpath.如下:
+> 需要在远程机器JAVA启动处添加agentpath.如下:
 Integration type: [Generic application server]
 Selected JVM: Oracle 1.8.0 (hotspot)
 Startup mode: Startup immediately, connect later with the JProfiler GUI

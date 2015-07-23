@@ -13,6 +13,7 @@ tags : [btrace]
 > btrace -cp build:/opt/zookeeper-3.4.6/zookeeper-3.4.6.jar -p 2021 8503 ZKClientTracingScript.java > zk.log&
 
 4. 脚本代码如下:
+
 ```
 package org.apache.zookeeper;
 
@@ -41,7 +42,7 @@ public class ZKClientTracingScript {
         SelectionKey selectionKey = (SelectionKey) get(sockKey, self);
         Field readyOps = field("sun.nio.ch.SelectionKeyImpl", "readyOps");
         int ro = (Integer) get(readyOps, selectionKey);
-        
+
         println(strcat(strcat(strcat(strcat(strcat(strcat(Time.timestamp("yyyy-MM-dd:hh mm ss SSS"), "@-waitTimeOut:"), str(waitTimeOut)), "@-outGoingQueueSize:"), str(com.sun.btrace.BTraceUtils.Collections.size(outgoingQueue))),"  @readyOps"),str(ro)));
     }
 

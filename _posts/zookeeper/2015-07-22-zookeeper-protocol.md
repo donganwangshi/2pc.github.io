@@ -35,8 +35,7 @@ length   xid      zxid             err
 4. 响应类型-根据xid类型判断
 xid=-2 -> ping  
 xid=-4 -> auth
-xid=-1 -> notification
-
+xid=-1 -> notification  
 
 ```
 class SendThread extends Thread {
