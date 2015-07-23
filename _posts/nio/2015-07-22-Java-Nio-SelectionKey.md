@@ -7,7 +7,9 @@ tags : [socket,nio]
 {% include JB/setup %}
 
 # 1.OP_READ 缓冲区有数据可读则触发
+
 # 2.OP_WRITE 缓冲区可写则触发
+
 # 3.例子
 
 > 启动下面的程序,  
