@@ -8,11 +8,11 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 小牛犊
+title : 2PC
 tagline: Site Tagline
 author :
-  name : 小牛犊
-  email : xiaoniudu2012@gmail.com
+  name : 2PC
+  email : luping008@gmail.com
   github : xiaoniudu
   twitter : xiaoniudu
   feedburner : xiaoniudu
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://cliffyuan.github.io
+production_url : http://2pc.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -82,11 +82,11 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : xiaoniudu
+      short_name : 2pc
     livefyre :
       site_id : 123
     intensedebate :
-      account : xiaoniudu
+      account : 2pc
     facebook :
       appid : 123
       num_posts: 5
