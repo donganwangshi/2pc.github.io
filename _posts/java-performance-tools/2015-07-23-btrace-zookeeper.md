@@ -10,13 +10,13 @@ tags : [btrace]
 1. 下载btrace-bin.tar.gz.
 2. 解压btrace
 3. 执行如下命令, 将文件写到当前目录中
+
 > btrace -cp build:/opt/zookeeper-3.4.6/zookeeper-3.4.6.jar -p 2021 8503 ZKClientTracingScript.java > zk.log&
 
 4. 脚本代码如下:
 
 ```
 package org.apache.zookeeper;
-
 import com.sun.btrace.annotations.*;
 import org.apache.zookeeper.ClientCnxn.Packet;
 
@@ -47,5 +47,4 @@ public class ZKClientTracingScript {
     }
 
 }
-
 ```
