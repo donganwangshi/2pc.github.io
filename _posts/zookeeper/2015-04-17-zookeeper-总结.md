@@ -25,9 +25,12 @@ tags : [zookeeper]
 ## 总结
 
  - 镜像和日志
+ 
  > 
+
  - zxid
      1.名称解析：
+
 > zk状态的每一次改变，都对应着一个递增的transaction id,该id称为zxid.由于zxid的递增性质，如果zxid1小于zxid2,那么zxid1肯定在zxid2前发生。
 
     2.zxid为一64位数字，高32位为leader信息又称为epoch，每次leader转换时递增；低32位为消息编号，Leader转换时应该从0重新开始编号
@@ -50,6 +53,7 @@ tags : [zookeeper]
 ## 选举
 
  原则：
+ 
  > 当server接受到的”提议”消息中,epoch大于或者等于当前server本地的logicalclock时,server会对此”提议”进行校验,如果检验成功,将会将本地持有的提议信息替换.[注意,此处为server之间信息比较,而非比较”投票”信息],依次比较epoch,zxid,sid.
  
  状态变化：
