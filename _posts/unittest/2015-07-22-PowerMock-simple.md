@@ -7,6 +7,7 @@ tags : [mockito]
 {% include JB/setup %}
 
 # 配置依赖
+
 ```
       <dependency>
            <groupId>org.mockito</groupId>
@@ -47,8 +48,8 @@ public class ClusterTest {
 }  
 
 ```
-1. Mock私有方法
 
+1. Mock私有方法
 ```
 cluster cluster=new Cluster();
 Cluster spy=PowerMockito.spy(cluster);
