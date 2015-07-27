@@ -8,13 +8,12 @@ tags : [mockito]
 
 # 配置依赖
 ```
-  <dependency>
-           <groupId>org.mockito</groupId>
-           <artifactId>mockito-all</artifactId>
-           <version>1.9.5</version>
-           <scope>test</scope>
-       </dependency>
-
+   <dependency>
+       <groupId>org.mockito</groupId>
+       <artifactId>mockito-all</artifactId>
+       <version>1.9.5</version>
+       <scope>test</scope>
+   </dependency>
 ```
 
 # 使用
@@ -33,6 +32,5 @@ public void before(){
 
 //方式二:代码
 KievClient client = mock(KievClient.class);
-
 ```
 2.
