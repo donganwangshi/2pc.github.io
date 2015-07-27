@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 首页-小牛犊的领地
+title: 首页-2PC的领地
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
