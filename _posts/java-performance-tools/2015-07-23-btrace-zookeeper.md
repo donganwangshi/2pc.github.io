@@ -15,7 +15,7 @@ tags : [btrace]
 
 4. 脚本代码如下:
 
-```
+```java
 package org.apache.zookeeper;
 import com.sun.btrace.annotations.*;
 import org.apache.zookeeper.ClientCnxn.Packet;
