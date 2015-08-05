@@ -37,7 +37,7 @@ xid=-2 -> ping
 xid=-4 -> auth
 xid=-1 -> notification  
 
-```java
+```
 class SendThread extends Thread {
         private long lastPingSentNs;
         private final ClientCnxnSocket clientCnxnSocket;
