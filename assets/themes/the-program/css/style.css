@@ -575,8 +575,8 @@ pre {
 }
 pre {
   color: #f2f2f2;
-  background-color: #393939;
-  border: 1px solid #393939;
+  background-color: #ffffff;/* HIGHLIGHTER */
+  border: 1px solid #ffffff;
   font-family: consolas, monaco, monospace;
   margin-left: 0;
   margin-right: 0;
