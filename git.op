@@ -1,0 +1,53 @@
+   89  wget https://github.com/antirez/redis/archive/3.0.2.tar.gz
+   92  wget https://github.com/antirez/redis/archive/3.0.2.tar.gz
+  240  rake theme:install git="git://github.com/sodabrew/theme-dinky.git"
+  241  rake theme:install git="git://github.com/sodabrew/theme-dinky.git
+  242  rake theme:install git="git://github.com/sodabrew/theme-dinky.git"
+  314    240  rake theme:install git="git://github.com/sodabrew/theme-dinky.git"
+  315    241  rake theme:install git="git://github.com/sodabrew/theme-dinky.git
+  242  rake theme:install git="git://github.com/sodabrew/theme-dinky.git"
+  318  wget --no-check-certificate https://github.com/pypa/pip/archive/1.5.5.tar.gz
+  344  cd /data/solr-5.2.1/2pc.github.com/
+  346  rake theme:install git="https://github.com/jekyllbootstrap/theme-the-program.git"
+  369  git config --global user.name "2pc"
+  370  git config --global user.email luping008@gmail.com
+  371  ssh –T git@github.com
+  372  ssh git
+  375  ssh –T git@github.com
+  377  ssh  git@github.com
+  395  ssh -T git@github.com
+  400  history|grep git
+  407  git clone https://github.com/2pc/2pc.github.io.git 2pc.github.io
+  409  cd 2pc.github.io/
+  421  git status 
+  422  git add -A
+  423  git status 
+  424  git commit -am "markdown payments modify"
+  425  git push origin master  
+  426  vi .git/config
+  427  cat  .git/config
+  428  git push origin master  
+  429  cat  .git/config
+  430  vi .git/config
+  431  git push origin master  
+  432   git pull 
+  436   git pull 
+  439   git pull 
+  443  git add -A
+  444  git status
+  445  git commit -am "boader to EEEEEE"
+  446  git push origin master
+  449  cd /data/blog/2pc.github.io
+  450  git status
+  451  git push origin master
+  453  git pull
+  457  git add -A
+  458  git commit -am "color to 393939"
+  459  git push origin master
+  464  git add -A
+  465  git commit -am "back color to f7f7f7"
+  466  git push origin master
+  468  git pull
+  473  git push origin master
+  475  history|grep git 
+  476  history|grep git >> git.op
